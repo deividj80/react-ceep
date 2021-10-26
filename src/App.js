@@ -1,8 +1,15 @@
-import React from "react";
-
+import React from 'react'
+import { ListaDeNotas} from './components/ListaDeNotas'
 function App() {
   return (
-      <h1>Teste Deivid</h1>
+    <section>
+      <form>
+        <input type="text" placeholder="Título"/>
+        <textarea placeholder="Escreva sua nota..."></textarea>
+        <button>Criar Nota</button>
+      </form>
+      <ListaDeNotas/>
+      </section>
   );
 }
 
